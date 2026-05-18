@@ -46,7 +46,7 @@ img:is([sizes=auto i],[sizes^="auto," i]){contain-intrinsic-size:3000px 1500px}
 <link rel="stylesheet" id="elementor-icons-css" href="https://premycloud.com/wp-content/plugins/elementor/assets/lib/eicons/css/elementor-icons.min.css?ver=5.48.0" media="all">
 <link rel="stylesheet" id="elementor-frontend-css" href="https://premycloud.com/wp-content/plugins/elementor/assets/css/frontend.min.css?ver=4.0.8" media="all">
 <link rel="stylesheet" id="elementor-post-11-css" href="https://premycloud.com/wp-content/uploads/elementor/css/post-11.css?ver=1779134772" media="all">
-<link rel="stylesheet" id="elementor-post-114-css" href="https://premycloud.com/wp-content/uploads/elementor/css/post-114.css?ver=1779134827" media="all">
+<link rel="stylesheet" id="elementor-post-114-css" href="https://premycloud.com/wp-content/uploads/elementor/css/post-114.css?ver=1779142038" media="all">
 <link rel="stylesheet" id="srfm-payment-history-css" href="https://premycloud.com/wp-content/plugins/sureforms/assets/css/minified/payment-history.min.css?ver=2.9.0" media="all">
 <link rel="stylesheet" id="hfe-elementor-icons-css" href="https://premycloud.com/wp-content/plugins/elementor/assets/lib/eicons/css/elementor-icons.min.css?ver=5.34.0" media="all">
 <link rel="stylesheet" id="hfe-icons-list-css" href="https://premycloud.com/wp-content/plugins/elementor/assets/css/widget-icon-list.min.css?ver=3.24.3" media="all">
@@ -195,6 +195,10 @@ img:is([sizes=auto i],[sizes^="auto," i]){contain-intrinsic-size:3000px 1500px}
     box-sizing: border-box;
   }
 
+  .pc-gold-text {
+    color: #f8d86a;
+  }
+
   .pc-contact-hero {
     background: linear-gradient(135deg, #111111 0%, #242424 62%, #3a3214 100%);
     color: #ffffff;
@@ -234,7 +238,7 @@ img:is([sizes=auto i],[sizes^="auto," i]){contain-intrinsic-size:3000px 1500px}
     margin: 22px auto 0;
     font-size: 18px;
     line-height: 1.65;
-    color: rgba(255,255,255,0.86);
+    color: rgba(255, 255, 255, 0.86);
   }
 
   .pc-contact-section {
@@ -254,7 +258,7 @@ img:is([sizes=auto i],[sizes^="auto," i]){contain-intrinsic-size:3000px 1500px}
     padding: 38px;
     border-radius: 28px;
     border-top: 10px solid #f8d86a;
-    box-shadow: 0 18px 45px rgba(0,0,0,0.12);
+    box-shadow: 0 18px 45px rgba(0, 0, 0, 0.12);
   }
 
   .pc-contact-info h2,
@@ -277,7 +281,7 @@ img:is([sizes=auto i],[sizes^="auto," i]){contain-intrinsic-size:3000px 1500px}
   .pc-contact-info p {
     font-size: 16.5px;
     line-height: 1.7;
-    color: rgba(255,255,255,0.82);
+    color: rgba(255, 255, 255, 0.82);
     margin: 0 0 26px;
   }
 
@@ -292,8 +296,8 @@ img:is([sizes=auto i],[sizes^="auto," i]){contain-intrinsic-size:3000px 1500px}
     align-items: flex-start;
     padding: 17px;
     border-radius: 18px;
-    background: rgba(255,255,255,0.08);
-    border: 1px solid rgba(255,255,255,0.12);
+    background: rgba(255, 255, 255, 0.08);
+    border: 1px solid rgba(255, 255, 255, 0.12);
   }
 
   .pc-contact-icon {
@@ -318,10 +322,14 @@ img:is([sizes=auto i],[sizes^="auto," i]){contain-intrinsic-size:3000px 1500px}
   .pc-contact-item a,
   .pc-contact-item span {
     display: block;
-    color: rgba(255,255,255,0.78);
+    color: rgba(255, 255, 255, 0.78);
     text-decoration: none;
     font-size: 15.5px;
     line-height: 1.5;
+  }
+
+  .pc-contact-item a:hover {
+    color: #f8d86a;
   }
 
   .pc-socials {
@@ -335,12 +343,13 @@ img:is([sizes=auto i],[sizes^="auto," i]){contain-intrinsic-size:3000px 1500px}
     display: inline-block;
     padding: 11px 15px;
     border-radius: 999px;
-    background: rgba(255,255,255,0.08);
-    border: 1px solid rgba(255,255,255,0.16);
+    background: rgba(255, 255, 255, 0.08);
+    border: 1px solid rgba(255, 255, 255, 0.16);
     color: #ffffff;
     text-decoration: none;
     font-size: 14.5px;
     font-weight: 800;
+    transition: 0.25s ease;
   }
 
   .pc-socials a:hover {
@@ -353,7 +362,7 @@ img:is([sizes=auto i],[sizes^="auto," i]){contain-intrinsic-size:3000px 1500px}
     padding: 38px;
     border-radius: 28px;
     border: 1px solid #ece8d5;
-    box-shadow: 0 16px 42px rgba(0,0,0,0.07);
+    box-shadow: 0 16px 42px rgba(0, 0, 0, 0.07);
   }
 
   .pc-form-box p {
@@ -398,7 +407,7 @@ img:is([sizes=auto i],[sizes^="auto," i]){contain-intrinsic-size:3000px 1500px}
   .pc-form-group input:focus,
   .pc-form-group textarea:focus {
     border-color: #c69b18;
-    box-shadow: 0 0 0 4px rgba(248,216,106,0.25);
+    box-shadow: 0 0 0 4px rgba(248, 216, 106, 0.25);
   }
 
   .pc-form-group textarea {
@@ -469,7 +478,11 @@ img:is([sizes=auto i],[sizes^="auto," i]){contain-intrinsic-size:3000px 1500px}
   <section class="pc-contact-hero">
     <div class="pc-contact-container">
       <span class="pc-label">Contact Us</span>
-      <h1>Get in touch with Premy Cloud.</h1>
+
+      <h1>
+        Get in touch with <span class="pc-gold-text">Premy Cloud</span>.
+      </h1>
+
       <p>
         Send us a message and we will get back to you as soon as possible.
       </p>
@@ -482,6 +495,7 @@ img:is([sizes=auto i],[sizes^="auto," i]){contain-intrinsic-size:3000px 1500px}
 
         <div class="pc-contact-info">
           <h2>Contact details</h2>
+
           <p>
             Reach us by email, phone, WhatsApp, or through our social media pages.
           </p>
@@ -515,15 +529,16 @@ img:is([sizes=auto i],[sizes^="auto," i]){contain-intrinsic-size:3000px 1500px}
           </div>
 
           <div class="pc-socials">
-            <a href="#" target="_blank">Instagram</a>
-            <a href="#" target="_blank">Facebook</a>
-            <a href="#" target="_blank">TikTok</a>
-            <a href="#" target="_blank">LinkedIn</a>
+            <a href="#" target="_blank" rel="noopener">Instagram</a>
+            <a href="#" target="_blank" rel="noopener">Facebook</a>
+            <a href="#" target="_blank" rel="noopener">TikTok</a>
+            <a href="#" target="_blank" rel="noopener">LinkedIn</a>
           </div>
         </div>
 
         <div class="pc-form-box">
           <h2>Send a message</h2>
+
           <p>
             Fill out the form below and we will respond shortly.
           </p>
